@@ -172,18 +172,45 @@ body {
   font-weight: 600;
   color: #FFFFFF;
 }
+/* BMI Calculator */
+.bmi{
+  width: 500px;
+  margin: 38px auto;
+}
+.bmi-title{
+  font-size: 4rem;
+  font-weight: 900;
+  color: #FFFFFF;
+  margin-bottom: 0px;
+}
+
+/* opsional */
+.header{
+  /* display: none; */
+}
+.banner{
+  /* display: none; */
+}
+.habits{
+  /* display: none; */
+}
 
 /* media section */
 @media screen and (max-width:576px) {
   .banner-continer,
   .navbar {
     flex-direction: column;
+  
   }
   .nav-link {
     display: none;
   }
   .banner-item {
     width: 80%;
+  }
+  .banner-img img{
+    width: 100%;
+    margin: 0 auto;
   }
   .banner-title {
     margin: 10px;
@@ -193,15 +220,18 @@ body {
   }
   .banner-description {
     font-size: .8rem;
-    margin: 10px;
+    margin: 10px 20px;
     color: rgba(255, 255, 255, 0.5);
   }
   .btn-button {
     margin-left: 10px;
   }
   .btn-video {
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: -350px;
+  }
+  .btn-free-video{
+    margin-left: -195px;
   }
   /* Habits */
 
@@ -226,5 +256,14 @@ body {
     font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+  }
+  .bmi{
+    width: 350px;
+    margin: 0 auto;
+  }
+  .bmi-title{
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: #FFFFFF;
   }
   }
